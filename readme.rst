@@ -16,8 +16,8 @@ Requirements
 
 For building and running the application you need:
 
-- [Apache Version 2.4.35](https://downloads.apache.org/httpd/Announcement2.4.html)
-- [PHP Version 5.5.28](https://sourceforge.net/projects/xampp/files/XAMPP%20Windows/5.5.28/)
+- Apache Version 2.4.35 - https://downloads.apache.org/httpd/Announcement2.4.html
+- PHP Version 5.5.28 - https://sourceforge.net/projects/xampp/files/XAMPP%20Windows/5.5.28/
 
 *********
 Resources
