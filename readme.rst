@@ -22,4 +22,5 @@ For building and running the application you need:
 *********
 
 Thanks, 
-`Astronaut <mailto:polma.sihotang@gmail.com>`_
+
+`Astronaut <mailto:polma.sihotang@gmail.com>`_.
