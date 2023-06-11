@@ -61,22 +61,11 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 
 $active_group = "pblmig";
 $active_record = TRUE;
-$tnsname_stag = 
-  '(DESCRIPTION=
-  (ADDRESS=
-    (PROTOCOL=TCP)
-    (HOST=10.14.158.145)
-    (PORT=1521)
-  )
-  (CONNECT_DATA=
-    (SERVER=dedicated)
-    (SERVICE_NAME=ap2ttrain.localdomain)
-  )
-)';
+$tnsname_stag = '';
   
 $db['pblmig']['hostname'] = $tnsname_stag;
-$db['pblmig']['username'] = 'OPHARAPP';
-$db['pblmig']['password'] = '300km/jam';
+$db['pblmig']['username'] = '';
+$db['pblmig']['password'] = '';
 $db['pblmig']['database'] = '';
 $db['pblmig']['dbdriver'] = 'oci8';
 $db['pblmig']['dbprefix'] = '';
