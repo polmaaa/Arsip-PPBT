@@ -20,13 +20,6 @@ For building and running the application you need:
 - `PHP Version 5.5.28 <https://sourceforge.net/projects/xampp/files/XAMPP%20Windows/5.5.28>`_
 
 *********
-Resources
-*********
 
--  `User Guide <http://www.codeigniter.com/docs>`_
--  `Language File Translations <https://github.com/bcit-ci/codeigniter3-translations>`_
--  `Community Forums <http://forum.codeigniter.com/>`_
--  `Community Wiki <https://github.com/bcit-ci/CodeIgniter/wiki>`_
--  `Community IRC <http://www.codeigniter.com/irc>`_
-
-Report security issues to our `Security Panel <mailto:security@codeigniter.com>`_, thank you.
+Thanks, 
+`Astronaut <mailto:polma.sihotang@gmail.com>`_
