@@ -76,7 +76,7 @@ $tnsname_stag =
   
 $db['pblmig']['hostname'] = $tnsname_stag;
 $db['pblmig']['username'] = 'OPHARAPP';
-$db['pblmig']['password'] = '300km/jam';
+$db['pblmig']['password'] = '300km/jam'; 
 $db['pblmig']['database'] = '';
 $db['pblmig']['dbdriver'] = 'oci8';
 $db['pblmig']['dbprefix'] = '';

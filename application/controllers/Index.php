@@ -13,7 +13,6 @@ class Index extends CI_Controller {
 	{
 		$data['sitenya'] = array(
 			'title' => 'Arsip PPBT+',
-			'subtitle' => 'test',
 			'url' => site_url('/'),
 			'error' => $error
 		);
