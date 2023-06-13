@@ -61,7 +61,8 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 
 $active_group = "pblmig";
 $active_record = TRUE;
-$tnsname_stag = '(DESCRIPTION=
+$tnsname_stag = 
+  '(DESCRIPTION=
   (ADDRESS=
     (PROTOCOL=TCP)
     (HOST=10.14.158.145)
@@ -75,7 +76,7 @@ $tnsname_stag = '(DESCRIPTION=
   
 $db['pblmig']['hostname'] = $tnsname_stag;
 $db['pblmig']['username'] = 'OPHARAPP';
-$db['pblmig']['password'] = '300km/jam';
+$db['pblmig']['password'] = '300km/jam'; 
 $db['pblmig']['database'] = '';
 $db['pblmig']['dbdriver'] = 'oci8';
 $db['pblmig']['dbprefix'] = '';
