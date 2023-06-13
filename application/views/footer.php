@@ -7,7 +7,8 @@
     <img class="p_absolute f_man_two wow fadeInLeft" data-wow-delay="0.3s" src="img/home_two/man.png" alt="">
     <div class="footer_bottom text-center">
         <div class="container">
-            <p>� 2020 All Rights Reserved by <a href="index.html">KbDoc</a></p>
+            <p>Created with <i class="fa fa-heart text-pulse" style="color:red;"></i> by <a class="font-w600" href="">sigantengkalem</a></p>
         </div>
     </div>
 </footer>
+<link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css'>
