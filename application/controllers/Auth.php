@@ -72,13 +72,24 @@ class Auth extends CI_Controller
 
     public function proses_tambah($error = NULL)
     {
+        $incident = $this->input->post('incident');
+        $owner = $this->input->post('owner');
+        $judul = $this->input->post('judul');
         $judul = $this->input->post('judul');
         $permasalahan = $this->input->post('permasalahan');
         $penyelesaian = $this->input->post('penyelesaian');
+        $time1 = $this->input->post('time1');
+        $time2 = $this->input->post('time2');
+        $pengecekan = $this->input->post('pengecekan');
         echo "<pre>";
+        echo $incident."<br />";
+        echo $owner."<br />";
         echo $judul."<br />";
         echo $permasalahan."<br />";
-        echo $penyelesaian;
+        echo $penyelesaian."<br />";
+        echo $time1."<br />";
+        echo $time2."<br />";
+        echo $pengecekan."<br />";
         echo "</pre>";
     }
 
