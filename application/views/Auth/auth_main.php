@@ -95,401 +95,471 @@
         </section>
 
         <section class="h_doc_documentation_area bg_color sec_pad">
-            <div class="container">
-                
-                <ul class="nav nav-tabs documentation_tab" id="myTabs" role="tablist">
-                    <li class="nav-item">
-                        <a class="nav-link active" id="all-tab" data-toggle="tab" href="#all" role="tab" aria-controls="or" aria-selected="true">All</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" id="documentation-tab" data-toggle="tab" href="#documentation" role="tab" aria-controls="documentation" aria-selected="false">Documentation</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" id="itsm-tab" data-toggle="tab" href="#itsm" role="tab" aria-controls="itsm" aria-selected="false">ITSM</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" id="permintaan_data-tab" data-toggle="tab" href="#permintaan_data" role="tab" aria-controls="permintaan_data" aria-selected="false">Permintaan Data</a>
-                    </li>
-                </ul>
-                <div class="tab-content" id="myTabContents">
-                    <div class="tab-pane documentation_tab_pane fade show active" id="all" role="tabpanel" aria-labelledby="all-tab">
-                        <div class="row">
-                            <div class="col-lg-4">
-                                <div class="documentation_text">
-                                    <div class="round wow fadeInUp">
-                                        <img src="img/home_one/icon/file1.png" alt="">
+        <div class="container">
+            <div class="section_title text-center">
+                <h2 class="h_title wow fadeInUp">Frequently Asked Questions</h2>
+                <p class="wow fadeInUp" data-wow-delay="0.2s">Some dodgy chav bevvy amongst argy-bargy spiffing
+                    absolutely bladdered nancy boy cup of tea a load of old tosh porkies.</p>
+            </div>
+            <div class="row">
+                <div class="col-lg-4 col-md-5">
+                    
+
+                    <div class="fact_navigation_info" style="background-color:white; padding:10px; margin:15px 0px 0px 0px;">
+                        <a href="<?php echo $sitenya['url']; ?>/tambah" class="doc_border_btn border-light all_doc_btn wow fadeInUp  animated" style="visibility: visible; animation-name: fadeInUp; width:100%; text-align:center; margin-top:0;">Tambah</a>
+                    </div>
+
+                    
+                    <br />
+                    <div class="fact_navigation_info">
+                        <ul class="nav nav-tabs fact_navigation" id="myTab" role="tablist">
+                            <li class="nav-item">
+                                <a class="nav-link active" id="documentation-tab" data-toggle="tab" href="#documentation" role="tab"
+                                   aria-controls="documentation" aria-selected="true"><i class="icon_folder-alt"></i>Documentation</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" id="itsm-tab" data-toggle="tab" href="#itsm" role="tab"
+                                   aria-controls="itsm" aria-selected="false"><i class="icon_cloud-upload_alt"></i>ITSM</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" id="permintaandata-tab" data-toggle="tab" href="#permintaandata" role="tab"
+                                   aria-controls="permintaandata" aria-selected="false"><i class="icon_key_alt"></i>Permintaan Data</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-lg-8 col-md-7">
+                    <div class="tab-content pl_70" id="myTabContent">
+                        <div class="tab-pane faq_tab_pane fade show active" id="documentation" role="tabpanel"
+                             aria-labelledby="documentation-tab">
+                            <div class="accordion doc_faq_info" id="accordionExample">
+                                <div class="card wow fadeInUp" style="margin:15px 0px 15px -30px">
+                                    <div class="card-header" id="headingOne">
+                                        <h2 class="mb-0">
+                                            <button class="btn btn-link" type="button" data-toggle="collapse"
+                                                    data-target="#collapseOne" aria-expanded="true"
+                                                    aria-controls="collapseOne">
+                                                DOCUMENTATION<i class="icon_plus"></i><i
+                                                    class="icon_minus-06"></i>
+                                            </button>
+                                        </h2>
                                     </div>
-                                    <h4 class="wow fadeInUp" data-wow-delay="0.2s">SEMUA YANG ADA DI ALL</h4>
-                                    <p class="wow fadeInUp" data-wow-delay="0.3s">Omnis voluptate magna inceptos id velit autem, harum phasellus quo. Officia congue, natoque imperdiet iusto malesuada placerat. Augue temporibus </p>
-                                    <a href="#" class="learn_btn wow fadeInUp" data-wow-delay="0.4s">Learn More<i class="arrow_right"></i></a>
+                                    <div id="collapseOne" class="collapse show" aria-labelledby="headingOne"
+                                         data-parent="#accordionExample">
+                                        <div class="card-body">
+                                            Skive off he lost his bottle the little rotter absolutely bladdered in my
+                                            flat William no biggie, gormless me old mucker such a fibber David bum bag
+                                            so I said cack.!
+                                        </div>
+                                    </div>
                                 </div>
-                            </div>
-                            <div class="col-lg-8">
-                                <div class="row">
-                                    <div class="col-sm-6">
-                                        <div class="media documentation_item wow fadeInUp">
-                                            <div class="icon">
-                                                <img src="img/home_one/icon/folder.png" alt="">
-                                            </div>
-                                            <div class="media-body">
-                                                <a href="#">
-                                                    <h5>Working with ALL</h5>
-                                                </a>
-                                                <p>He lost his bottle bubble and squeak knackered.!</p>
-                                            </div>
+                                <div class="card wow fadeInUp" style="margin:15px 0px 15px -30px" data-wow-delay="0.1s">
+                                    <div class="card-header" id="headingTwo">
+                                        <h2 class="mb-0">
+                                            <button class="btn btn-link collapsed" type="button" data-toggle="collapse"
+                                                    data-target="#collapseTwo" aria-expanded="false"
+                                                    aria-controls="collapseTwo">
+                                                Is maternity covered in health insurance policies?<i
+                                                    class="icon_plus"></i><i class="icon_minus-06"></i>
+                                            </button>
+                                        </h2>
+                                    </div>
+                                    <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo"
+                                         data-parent="#accordionExample">
+                                        <div class="card-body">
+                                            Skive off he lost his bottle the little rotter absolutely bladdered in my
+                                            flat William no biggie, gormless me old mucker such a fibber David bum bag
+                                            so I said cack.!
                                         </div>
                                     </div>
-                                    <div class="col-sm-6">
-                                        <div class="media documentation_item wow fadeInUp" data-wow-delay="0.2s">
-                                            <div class="icon">
-                                                <img src="img/home_one/icon/envelope.png" alt="">
-                                            </div>
-                                            <div class="media-body">
-                                                <a href="#">
-                                                    <h5>Formatting ALL</h5>
-                                                </a>
-                                                <p>He lost his bottle bubble and squeak knackered.!</p>
-                                            </div>
+                                </div>
+                                <div class="card wow fadeInUp" style="margin:15px 0px 15px -30px" data-wow-delay="0.2s">
+                                    <div class="card-header" id="headingThree">
+                                        <h2 class="mb-0">
+                                            <button class="btn btn-link collapsed" type="button" data-toggle="collapse"
+                                                    data-target="#collapseThree" aria-expanded="false"
+                                                    aria-controls="collapseThree">
+                                                What are the documents required for claiming? <i
+                                                    class="icon_plus"></i><i class="icon_minus-06"></i>
+                                            </button>
+                                        </h2>
+                                    </div>
+                                    <div id="collapseThree" class="collapse" aria-labelledby="headingThree"
+                                         data-parent="#accordionExample">
+                                        <div class="card-body">
+                                            Skive off he lost his bottle the little rotter absolutely bladdered in my
+                                            flat William no biggie, gormless me old mucker such a fibber Ngoehehe bum bag
+                                            so I said cack.!
                                         </div>
                                     </div>
-                                    <div class="col-sm-6">
-                                        <div class="media documentation_item wow fadeInUp" data-wow-delay="0.3s">
-                                            <div class="icon">
-                                                <img src="img/home_one/icon/smartphone.png" alt="">
-                                            </div>
-                                            <div class="media-body">
-                                                <a href="#">
-                                                    <h5>Mobile ALL</h5>
-                                                </a>
-                                                <p>He lost his bottle bubble and squeak knackered.!</p>
-                                            </div>
+                                </div>
+                                <div class="card wow fadeInUp" style="margin:15px 0px 15px -30px" data-wow-delay="0.3s">
+                                    <div class="card-header" id="headingFour">
+                                        <h2 class="mb-0">
+                                            <button class="btn btn-link collapsed" type="button" data-toggle="collapse"
+                                                    data-target="#collapseFour" aria-expanded="false"
+                                                    aria-controls="collapseFour">
+                                                Any useful books on numerical computing?<i class="icon_plus"></i><i
+                                                    class="icon_minus-06"></i>
+                                            </button>
+                                        </h2>
+                                    </div>
+                                    <div id="collapseFour" class="collapse" aria-labelledby="headingFour"
+                                         data-parent="#accordionExample">
+                                        <div class="card-body">
+                                            Skive off he lost his bottle the little rotter absolutely bladdered in my
+                                            flat William no biggie, gormless me old mucker such a fibber David bum bag
+                                            so I said cack.!
                                         </div>
                                     </div>
-                                    <div class="col-sm-6">
-                                        <div class="media documentation_item wow fadeInUp" data-wow-delay="0.4s">
-                                            <div class="icon">
-                                                <img src="img/home_one/icon/management.png" alt="">
-                                            </div>
-                                            <div class="media-body">
-                                                <a href="#">
-                                                    <h5>Account ALL</h5>
-                                                </a>
-                                                <p>He lost his bottle bubble and squeak knackered.!</p>
-                                            </div>
+                                </div>
+                                <div class="card wow fadeInUp" style="margin:15px 0px 15px -30px" data-wow-delay="0.4s">
+                                    <div class="card-header" id="headingfive">
+                                        <h2 class="mb-0">
+                                            <button class="btn btn-link collapsed" type="button" data-toggle="collapse"
+                                                    data-target="#collapsefive" aria-expanded="false"
+                                                    aria-controls="collapsefive">
+                                                How do I repair an item? <i class="icon_plus"></i><i
+                                                    class="icon_minus-06"></i>
+                                            </button>
+                                        </h2>
+                                    </div>
+                                    <div id="collapsefive" class="collapse" aria-labelledby="headingfive"
+                                         data-parent="#accordionExample">
+                                        <div class="card-body">
+                                            Skive off he lost his bottle the little rotter absolutely bladdered in my
+                                            flat William no biggie, gormless me old mucker such a fibber David bum bag
+                                            so I said cack.!
                                         </div>
                                     </div>
-                                    <div class="col-sm-6">
-                                        <div class="media documentation_item wow fadeInUp" data-wow-delay="0.2s">
-                                            <div class="icon">
-                                                <img src="img/home_one/icon/newspaper.png" alt="">
-                                            </div>
-                                            <div class="media-body">
-                                                <a href="#">
-                                                    <h5>ALL</h5>
-                                                </a>
-                                                <p>He lost his bottle bubble and squeak knackered.!</p>
-                                            </div>
+                                </div>
+                                <div class="card wow fadeInUp" style="margin:15px 0px 15px -30px" data-wow-delay="0.5s">
+                                    <div class="card-header" id="headingsix">
+                                        <h2 class="mb-0">
+                                            <button class="btn btn-link collapsed" type="button" data-toggle="collapse"
+                                                    data-target="#collapsesix" aria-expanded="false"
+                                                    aria-controls="collapsesix">
+                                                How can I deploy Documentation Landing?<i class="icon_plus"></i><i
+                                                    class="icon_minus-06"></i>
+                                            </button>
+                                        </h2>
+                                    </div>
+                                    <div id="collapsesix" class="collapse" aria-labelledby="headingsix"
+                                         data-parent="#accordionExample">
+                                        <div class="card-body">
+                                            Skive off he lost his bottle the little rotter absolutely bladdered in my
+                                            flat William no biggie, gormless me old mucker such a fibber David bum bag
+                                            so I said cack.!
                                         </div>
                                     </div>
-                                    <div class="col-sm-6">
-                                        <div class="media documentation_item wow fadeInUp" data-wow-delay="0.4s">
-                                            <div class="icon">
-                                                <img src="img/home_one/icon/android.png" alt="">
-                                            </div>
-                                            <div class="media-body">
-                                                <a href="#">
-                                                    <h5>Getting ALL</h5>
-                                                </a>
-                                                <p>He lost his bottle bubble and squeak knackered.!</p>
-                                            </div>
+                                </div>
+                                <div class="card wow fadeInUp" style="margin:15px 0px 15px -30px" data-wow-delay="0.6s">
+                                    <div class="card-header" id="headingseven">
+                                        <h2 class="mb-0">
+                                            <button class="btn btn-link collapsed" type="button" data-toggle="collapse"
+                                                    data-target="#collapseseven" aria-expanded="false"
+                                                    aria-controls="collapseseven">
+                                                Is there a warranty on my item? <i class="icon_plus"></i><i
+                                                    class="icon_minus-06"></i>
+                                            </button>
+                                        </h2>
+                                    </div>
+                                    <div id="collapseseven" class="collapse" aria-labelledby="headingseven"
+                                         data-parent="#accordionExample">
+                                        <div class="card-body">
+                                            Skive off he lost his bottle the little rotter absolutely bladdered in my
+                                            flat William no biggie, gormless me old mucker such a fibber David bum bag
+                                            so I said cack.!
                                         </div>
                                     </div>
                                 </div>
                             </div>
                         </div>
-                    </div>
-                    <div class="tab-pane documentation_tab_pane fade" id="documentation" role="tabpanel" aria-labelledby="documentation-tab">
-                        <div class="row">
-                            <div class="col-lg-4">
-                                <div class="documentation_text">
-                                    <div class="round">
-                                        <img src="img/home_one/icon/file1.png" alt="">
+                        <div class="tab-pane faq_tab_pane fade" id="itsm" role="tabpanel"
+                             aria-labelledby="itsm-tab">
+                            <div class="accordion doc_faq_info" id="accordionExampletwo">
+                                <div class="card wow fadeInUp" style="margin:15px 0px 15px -30px">
+                                    <div class="card-header" id="headingfOne">
+                                        <h2 class="mb-0">
+                                            <button class="btn btn-link" type="button" data-toggle="collapse"
+                                                    data-target="#collapsefOne" aria-expanded="true"
+                                                    aria-controls="collapsefOne">
+                                                ITSM<i class="icon_plus"></i><i
+                                                    class="icon_minus-06"></i>
+                                            </button>
+                                        </h2>
                                     </div>
-                                    <h4>SEMUA YANG ADA DI DOCUMENTATION</h4>
-                                    <p>Omnis voluptate magna inceptos id velit autem, harum phasellus quo. Officia congue, natoque imperdiet iusto malesuada placerat. Augue temporibus </p>
-                                    <a href="#" class="learn_btn">Learn More<i class="arrow_right"></i></a>
-                                </div>
-                            </div>
-                            <div class="col-lg-8">
-                                <div class="row">
-                                    <div class="col-sm-6">
-                                        <div class="media documentation_item">
-                                            <div class="icon">
-                                                <img src="img/home_one/icon/smartphone.png" alt="">
-                                            </div>
-                                            <div class="media-body">
-                                                <a href="#">
-                                                    <h5>Mobile DOCUMENTATION</h5>
-                                                </a>
-                                                <p>He lost his bottle bubble and squeak knackered.!</p>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="col-sm-6">
-                                        <div class="media documentation_item">
-                                            <div class="icon">
-                                                <img src="img/home_one/icon/management.png" alt="">
-                                            </div>
-                                            <div class="media-body">
-                                                <a href="#">
-                                                    <h5>Account DOCUMENTATION</h5>
-                                                </a>
-                                                <p>He lost his bottle bubble and squeak knackered.!</p>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="col-sm-6">
-                                        <div class="media documentation_item">
-                                            <div class="icon">
-                                                <img src="img/home_one/icon/folder.png" alt="">
-                                            </div>
-                                            <div class="media-body">
-                                                <a href="#">
-                                                    <h5>Working with DOCUMENTATION</h5>
-                                                </a>
-                                                <p>He lost his bottle bubble and squeak knackered.!</p>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="col-sm-6">
-                                        <div class="media documentation_item">
-                                            <div class="icon">
-                                                <img src="img/home_one/icon/envelope.png" alt="">
-                                            </div>
-                                            <div class="media-body">
-                                                <a href="#">
-                                                    <h5>Formatting DOCUMENTATION</h5>
-                                                </a>
-                                                <p>He lost his bottle bubble and squeak knackered.!</p>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="col-sm-6">
-                                        <div class="media documentation_item">
-                                            <div class="icon">
-                                                <img src="img/home_one/icon/newspaper.png" alt="">
-                                            </div>
-                                            <div class="media-body">
-                                                <a href="#">
-                                                    <h5>DOCUMENTATION</h5>
-                                                </a>
-                                                <p>He lost his bottle bubble and squeak knackered.!</p>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="col-sm-6">
-                                        <div class="media documentation_item">
-                                            <div class="icon">
-                                                <img src="img/home_one/icon/android.png" alt="">
-                                            </div>
-                                            <div class="media-body">
-                                                <a href="#">
-                                                    <h5>Getting DOCUMENTATION</h5>
-                                                </a>
-                                                <p>He lost his bottle bubble and squeak knackered.!</p>
-                                            </div>
+                                    <div id="collapsefOne" class="collapse show" aria-labelledby="headingfOne"
+                                         data-parent="#accordionExampletwo">
+                                        <div class="card-body">
+                                            Skive off he lost his bottle the little rotter absolutely bladdered in my
+                                            flat William no biggie, gormless me old mucker such a fibber David bum bag
+                                            so I said cack.!
                                         </div>
                                     </div>
                                 </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="tab-pane documentation_tab_pane fade" id="itsm" role="tabpanel" aria-labelledby="itsm-tab">
-                        <div class="row">
-                            <div class="col-lg-4">
-                                <div class="documentation_text">
-                                    <div class="round">
-                                        <img src="img/home_one/icon/file1.png" alt="">
+                                <div class="card wow fadeInUp" style="margin:15px 0px 15px -30px" data-wow-delay="0.1s">
+                                    <div class="card-header" id="headingfTwo">
+                                        <h2 class="mb-0">
+                                            <button class="btn btn-link collapsed" type="button" data-toggle="collapse"
+                                                    data-target="#collapsefTwo" aria-expanded="false"
+                                                    aria-controls="collapsefTwo">
+                                                Is maternity covered in health insurance policies?<i
+                                                    class="icon_plus"></i><i class="icon_minus-06"></i>
+                                            </button>
+                                        </h2>
                                     </div>
-                                    <h4>SEMUA YANG ADA DI ITSM</h4>
-                                    <p>Omnis voluptate magna inceptos id velit autem, harum phasellus quo. Officia congue, natoque imperdiet iusto malesuada placerat. Augue temporibus </p>
-                                    <a href="#" class="learn_btn">Learn More<i class="arrow_right"></i></a>
+                                    <div id="collapsefTwo" class="collapse" aria-labelledby="headingfTwo"
+                                         data-parent="#accordionExampletwo">
+                                        <div class="card-body">
+                                            Skive off he lost his bottle the little rotter absolutely bladdered in my
+                                            flat William no biggie, gormless me old mucker such a fibber David bum bag
+                                            so I said cack.!
+                                        </div>
+                                    </div>
                                 </div>
-                            </div>
-                            <div class="col-lg-8">
-                                <div class="row">
-                                    <div class="col-sm-6">
-                                        <div class="media documentation_item">
-                                            <div class="icon">
-                                                <img src="img/home_one/icon/folder.png" alt="">
-                                            </div>
-                                            <div class="media-body">
-                                                <a href="#">
-                                                    <h5>Working with ITSM</h5>
-                                                </a>
-                                                <p>He lost his bottle bubble and squeak knackered.!</p>
-                                            </div>
+                                <div class="card wow fadeInUp" style="margin:15px 0px 15px -30px" data-wow-delay="0.2s">
+                                    <div class="card-header" id="headingfThree">
+                                        <h2 class="mb-0">
+                                            <button class="btn btn-link collapsed" type="button" data-toggle="collapse"
+                                                    data-target="#collapsefThree" aria-expanded="false"
+                                                    aria-controls="collapsefThree">
+                                                What are the documents required for claiming? <i
+                                                    class="icon_plus"></i><i class="icon_minus-06"></i>
+                                            </button>
+                                        </h2>
+                                    </div>
+                                    <div id="collapsefThree" class="collapse" aria-labelledby="headingfThree"
+                                         data-parent="#accordionExampletwo">
+                                        <div class="card-body">
+                                            Skive off he lost his bottle the little rotter absolutely bladdered in my
+                                            flat William no biggie, gormless me old mucker such a fibber David bum bag
+                                            so I said cack.!
                                         </div>
                                     </div>
-                                    <div class="col-sm-6">
-                                        <div class="media documentation_item">
-                                            <div class="icon">
-                                                <img src="img/home_one/icon/envelope.png" alt="">
-                                            </div>
-                                            <div class="media-body">
-                                                <a href="#">
-                                                    <h5>Formatting ITSM</h5>
-                                                </a>
-                                                <p>He lost his bottle bubble and squeak knackered.!</p>
-                                            </div>
+                                </div>
+                                <div class="card wow fadeInUp" style="margin:15px 0px 15px -30px" data-wow-delay="0.3s">
+                                    <div class="card-header" id="headingfFour">
+                                        <h2 class="mb-0">
+                                            <button class="btn btn-link collapsed" type="button" data-toggle="collapse"
+                                                    data-target="#collapsefFour" aria-expanded="false"
+                                                    aria-controls="collapsefFour">
+                                                Any useful books on numerical computing?<i class="icon_plus"></i><i
+                                                    class="icon_minus-06"></i>
+                                            </button>
+                                        </h2>
+                                    </div>
+                                    <div id="collapsefFour" class="collapse" aria-labelledby="headingfFour"
+                                         data-parent="#accordionExampletwo">
+                                        <div class="card-body">
+                                            Skive off he lost his bottle the little rotter absolutely bladdered in my
+                                            flat William no biggie, gormless me old mucker such a fibber David bum bag
+                                            so I said cack.!
                                         </div>
                                     </div>
-                                    <div class="col-sm-6">
-                                        <div class="media documentation_item">
-                                            <div class="icon">
-                                                <img src="img/home_one/icon/smartphone.png" alt="">
-                                            </div>
-                                            <div class="media-body">
-                                                <a href="#">
-                                                    <h5>Mobile ITSM</h5>
-                                                </a>
-                                                <p>He lost his bottle bubble and squeak knackered.!</p>
-                                            </div>
+                                </div>
+                                <div class="card wow fadeInUp" style="margin:15px 0px 15px -30px" data-wow-delay="0.4s">
+                                    <div class="card-header" id="headingffive">
+                                        <h2 class="mb-0">
+                                            <button class="btn btn-link collapsed" type="button" data-toggle="collapse"
+                                                    data-target="#collapseffive" aria-expanded="false"
+                                                    aria-controls="collapseffive">
+                                                How do I repair an item? <i class="icon_plus"></i><i
+                                                    class="icon_minus-06"></i>
+                                            </button>
+                                        </h2>
+                                    </div>
+                                    <div id="collapseffive" class="collapse" aria-labelledby="headingffive"
+                                         data-parent="#accordionExampletwo">
+                                        <div class="card-body">
+                                            Skive off he lost his bottle the little rotter absolutely bladdered in my
+                                            flat William no biggie, gormless me old mucker such a fibber David bum bag
+                                            so I said cack.!
                                         </div>
                                     </div>
-                                    <div class="col-sm-6">
-                                        <div class="media documentation_item">
-                                            <div class="icon">
-                                                <img src="img/home_one/icon/management.png" alt="">
-                                            </div>
-                                            <div class="media-body">
-                                                <a href="#">
-                                                    <h5>Account ITSM</h5>
-                                                </a>
-                                                <p>He lost his bottle bubble and squeak knackered.!</p>
-                                            </div>
+                                </div>
+                                <div class="card wow fadeInUp" style="margin:15px 0px 15px -30px" data-wow-delay="0.5s">
+                                    <div class="card-header" id="headingfsix">
+                                        <h2 class="mb-0">
+                                            <button class="btn btn-link collapsed" type="button" data-toggle="collapse"
+                                                    data-target="#collapsefsix" aria-expanded="false"
+                                                    aria-controls="collapsefsix">
+                                                How can I deploy Documentation Landing?<i class="icon_plus"></i><i
+                                                    class="icon_minus-06"></i>
+                                            </button>
+                                        </h2>
+                                    </div>
+                                    <div id="collapsefsix" class="collapse" aria-labelledby="headingfsix"
+                                         data-parent="#accordionExampletwo">
+                                        <div class="card-body">
+                                            Skive off he lost his bottle the little rotter absolutely bladdered in my
+                                            flat William no biggie, gormless me old mucker such a fibber David bum bag
+                                            so I said cack.!
                                         </div>
                                     </div>
-                                    <div class="col-sm-6">
-                                        <div class="media documentation_item">
-                                            <div class="icon">
-                                                <img src="img/home_one/icon/newspaper.png" alt="">
-                                            </div>
-                                            <div class="media-body">
-                                                <a href="#">
-                                                    <h5>ITSM</h5>
-                                                </a>
-                                                <p>He lost his bottle bubble and squeak knackered.!</p>
-                                            </div>
-                                        </div>
+                                </div>
+                                <div class="card wow fadeInUp" style="margin:15px 0px 15px -30px" data-wow-delay="0.6s">
+                                    <div class="card-header" id="headingfseven">
+                                        <h2 class="mb-0">
+                                            <button class="btn btn-link collapsed" type="button" data-toggle="collapse"
+                                                    data-target="#collapsefseven" aria-expanded="false"
+                                                    aria-controls="collapsefseven">
+                                                Is there a warranty on my item? <i class="icon_plus"></i><i
+                                                    class="icon_minus-06"></i>
+                                            </button>
+                                        </h2>
                                     </div>
-                                    <div class="col-sm-6">
-                                        <div class="media documentation_item">
-                                            <div class="icon">
-                                                <img src="img/home_one/icon/android.png" alt="">
-                                            </div>
-                                            <div class="media-body">
-                                                <a href="#">
-                                                    <h5>Getting ITSM</h5>
-                                                </a>
-                                                <p>He lost his bottle bubble and squeak knackered.!</p>
-                                            </div>
+                                    <div id="collapsefseven" class="collapse" aria-labelledby="headingfseven"
+                                         data-parent="#accordionExampletwo">
+                                        <div class="card-body">
+                                            Skive off he lost his bottle the little rotter absolutely bladdered in my
+                                            flat William no biggie, gormless me old mucker such a fibber David bum bag
+                                            so I said cack.!
                                         </div>
                                     </div>
                                 </div>
                             </div>
                         </div>
-                    </div>
-                    <div class="tab-pane documentation_tab_pane fade" id="permintaan_data" role="tabpanel" aria-labelledby="permintaan_data-tab">
-                        <div class="row">
-                            <div class="col-lg-4">
-                                <div class="documentation_text">
-                                    <div class="round">
-                                        <img src="img/home_one/icon/file1.png" alt="">
+                        <div class="tab-pane faq_tab_pane fade" id="permintaandata" role="tabpanel"
+                             aria-labelledby="permintaandata-tab">
+                            <div class="accordion doc_faq_info" id="accordionExamplethree">
+                                <div class="card wow fadeInUp" style="margin:15px 0px 15px -30px">
+                                    <div class="card-header" id="headingpTwo">
+                                        <h2 class="mb-0">
+                                            <button class="btn btn-link collapsed" type="button" data-toggle="collapse"
+                                                    data-target="#collapsepTwo" aria-expanded="false"
+                                                    aria-controls="collapsepTwo">
+                                                PERMINTAAN DATA<i
+                                                    class="icon_plus"></i><i class="icon_minus-06"></i>
+                                            </button>
+                                        </h2>
                                     </div>
-                                    <h4>SEMUA YANG ADA DI PERMINTAAN DATA</h4>
-                                    <p>Omnis voluptate magna inceptos id velit autem, harum phasellus quo. Officia congue, natoque imperdiet iusto malesuada placerat. Augue temporibus </p>
-                                    <a href="#" class="learn_btn">Learn More<i class="arrow_right"></i></a>
+                                    <div id="collapsepTwo" class="collapse" aria-labelledby="headingpTwo"
+                                         data-parent="#accordionExamplethree">
+                                        <div class="card-body">
+                                            Skive off he lost his bottle the little rotter absolutely bladdered in my
+                                            flat William no biggie, gormless me old mucker such a fibber David bum bag
+                                            so I said cack.!
+                                        </div>
+                                    </div>
                                 </div>
-                            </div>
-                            <div class="col-lg-8">
-                                <div class="row">
-                                    <div class="col-sm-6">
-                                        <div class="media documentation_item">
-                                            <div class="icon">
-                                                <img src="img/home_one/icon/folder.png" alt="">
-                                            </div>
-                                            <div class="media-body">
-                                                <a href="#">
-                                                    <h5>Working with PERMINTAAN DATA</h5>
-                                                </a>
-                                                <p>He lost his bottle bubble and squeak knackered.!</p>
-                                            </div>
+                                <div class="card wow fadeInUp" style="margin:15px 0px 15px -30px" data-wow-delay="0.1s">
+                                    <div class="card-header" id="headingpOne">
+                                        <h2 class="mb-0">
+                                            <button class="btn btn-link" type="button" data-toggle="collapse"
+                                                    data-target="#collapsepOne" aria-expanded="true"
+                                                    aria-controls="collapsepOne">
+                                                How can I deploy Documentation Landing?<i class="icon_plus"></i><i
+                                                    class="icon_minus-06"></i>
+                                            </button>
+                                        </h2>
+                                    </div>
+                                    <div id="collapsepOne" class="collapse show" aria-labelledby="headingpOne"
+                                         data-parent="#accordionExamplethree">
+                                        <div class="card-body">
+                                            Skive off he lost his bottle the little rotter absolutely bladdered in my
+                                            flat William no biggie, gormless me old mucker such a fibber David bum bag
+                                            so I said cack.!
                                         </div>
                                     </div>
-                                    <div class="col-sm-6">
-                                        <div class="media documentation_item">
-                                            <div class="icon">
-                                                <img src="img/home_one/icon/envelope.png" alt="">
-                                            </div>
-                                            <div class="media-body">
-                                                <a href="#">
-                                                    <h5>Formatting PERMINTAAN DATA</h5>
-                                                </a>
-                                                <p>He lost his bottle bubble and squeak knackered.!</p>
-                                            </div>
+                                </div>
+                                <div class="card wow fadeInUp" style="margin:15px 0px 15px -30px" data-wow-delay="0.2s">
+                                    <div class="card-header" id="headingpThree">
+                                        <h2 class="mb-0">
+                                            <button class="btn btn-link collapsed" type="button" data-toggle="collapse"
+                                                    data-target="#collapsepThree" aria-expanded="false"
+                                                    aria-controls="collapsepThree">
+                                                What are the documents required for claiming? <i
+                                                    class="icon_plus"></i><i class="icon_minus-06"></i>
+                                            </button>
+                                        </h2>
+                                    </div>
+                                    <div id="collapsepThree" class="collapse" aria-labelledby="headingpThree"
+                                         data-parent="#accordionExamplethree">
+                                        <div class="card-body">
+                                            Skive off he lost his bottle the little rotter absolutely bladdered in my
+                                            flat William no biggie, gormless me old mucker such a fibber David bum bag
+                                            so I said cack.!
                                         </div>
                                     </div>
-                                    <div class="col-sm-6">
-                                        <div class="media documentation_item">
-                                            <div class="icon">
-                                                <img src="img/home_one/icon/smartphone.png" alt="">
-                                            </div>
-                                            <div class="media-body">
-                                                <a href="#">
-                                                    <h5>Mobile PERMINTAAN DATA</h5>
-                                                </a>
-                                                <p>He lost his bottle bubble and squeak knackered.!</p>
-                                            </div>
+                                </div>
+                                <div class="card wow fadeInUp" style="margin:15px 0px 15px -30px" data-wow-delay="0.3s">
+                                    <div class="card-header" id="headingpFour">
+                                        <h2 class="mb-0">
+                                            <button class="btn btn-link collapsed" type="button" data-toggle="collapse"
+                                                    data-target="#collapsepFour" aria-expanded="false"
+                                                    aria-controls="collapsepFour">
+                                                Any useful books on numerical computing?<i class="icon_plus"></i><i
+                                                    class="icon_minus-06"></i>
+                                            </button>
+                                        </h2>
+                                    </div>
+                                    <div id="collapsepFour" class="collapse" aria-labelledby="headingpFour"
+                                         data-parent="#accordionExamplethree">
+                                        <div class="card-body">
+                                            Skive off he lost his bottle the little rotter absolutely bladdered in my
+                                            flat William no biggie, gormless me old mucker such a fibber David bum bag
+                                            so I said cack.!
                                         </div>
                                     </div>
-                                    <div class="col-sm-6">
-                                        <div class="media documentation_item">
-                                            <div class="icon">
-                                                <img src="img/home_one/icon/management.png" alt="">
-                                            </div>
-                                            <div class="media-body">
-                                                <a href="#">
-                                                    <h5>Account PERMINTAAN DATA</h5>
-                                                </a>
-                                                <p>He lost his bottle bubble and squeak knackered.!</p>
-                                            </div>
+                                </div>
+                                <div class="card wow fadeInUp" style="margin:15px 0px 15px -30px" data-wow-delay="0.4s">
+                                    <div class="card-header" id="headingpfive">
+                                        <h2 class="mb-0">
+                                            <button class="btn btn-link collapsed" type="button" data-toggle="collapse"
+                                                    data-target="#collapsepfive" aria-expanded="false"
+                                                    aria-controls="collapsepfive">
+                                                How do I repair an item? <i class="icon_plus"></i><i
+                                                    class="icon_minus-06"></i>
+                                            </button>
+                                        </h2>
+                                    </div>
+                                    <div id="collapsepfive" class="collapse" aria-labelledby="headingpfive"
+                                         data-parent="#accordionExamplethree">
+                                        <div class="card-body">
+                                            Skive off he lost his bottle the little rotter absolutely bladdered in my
+                                            flat William no biggie, gormless me old mucker such a fibber David bum bag
+                                            so I said cack.!
                                         </div>
                                     </div>
-                                    <div class="col-sm-6">
-                                        <div class="media documentation_item">
-                                            <div class="icon">
-                                                <img src="img/home_one/icon/newspaper.png" alt="">
-                                            </div>
-                                            <div class="media-body">
-                                                <a href="#">
-                                                    <h5>PERMINTAAN DATA</h5>
-                                                </a>
-                                                <p>He lost his bottle bubble and squeak knackered.!</p>
-                                            </div>
+                                </div>
+                                <div class="card wow fadeInUp" style="margin:15px 0px 15px -30px" data-wow-delay="0.5s">
+                                    <div class="card-header" id="headingpsix">
+                                        <h2 class="mb-0">
+                                            <button class="btn btn-link collapsed" type="button" data-toggle="collapse"
+                                                    data-target="#collapsepsix" aria-expanded="false"
+                                                    aria-controls="collapsepsix">
+                                                How can I deploy Documentation Landing?<i class="icon_plus"></i><i
+                                                    class="icon_minus-06"></i>
+                                            </button>
+                                        </h2>
+                                    </div>
+                                    <div id="collapsepsix" class="collapse" aria-labelledby="headingpsix"
+                                         data-parent="#accordionExamplethree">
+                                        <div class="card-body">
+                                            Skive off he lost his bottle the little rotter absolutely bladdered in my
+                                            flat William no biggie, gormless me old mucker such a fibber David bum bag
+                                            so I said cack.!
                                         </div>
                                     </div>
-                                    <div class="col-sm-6">
-                                        <div class="media documentation_item">
-                                            <div class="icon">
-                                                <img src="img/home_one/icon/android.png" alt="">
-                                            </div>
-                                            <div class="media-body">
-                                                <a href="#">
-                                                    <h5>Getting PERMINTAAN DATA</h5>
-                                                </a>
-                                                <p>He lost his bottle bubble and squeak knackered.!</p>
-                                            </div>
+                                </div>
+                                <div class="card wow fadeInUp" style="margin:15px 0px 15px -30px" data-wow-delay="0.6s">
+                                    <div class="card-header" id="headingpseven">
+                                        <h2 class="mb-0">
+                                            <button class="btn btn-link collapsed" type="button" data-toggle="collapse"
+                                                    data-target="#collapsepseven" aria-expanded="false"
+                                                    aria-controls="collapsepseven">
+                                                Is there a warranty on my item? <i class="icon_plus"></i><i
+                                                    class="icon_minus-06"></i>
+                                            </button>
+                                        </h2>
+                                    </div>
+                                    <div id="collapsepseven" class="collapse" aria-labelledby="headingpseven"
+                                         data-parent="#accordionExamplethree">
+                                        <div class="card-body">
+                                            Skive off he lost his bottle the little rotter absolutely bladdered in my
+                                            flat William no biggie, gormless me old mucker such a fibber David bum bag
+                                            so I said cack.!
                                         </div>
                                     </div>
                                 </div>
@@ -498,6 +568,7 @@
                     </div>
                 </div>
             </div>
+        </div>
         </section> 
 
 

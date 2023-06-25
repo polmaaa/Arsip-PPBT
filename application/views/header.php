@@ -4,17 +4,17 @@
     <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
+    <link rel="shortcut icon" href="<?php echo base_url();?>img/favicon.ico" type="image/x-icon">
     <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
-    <link rel="stylesheet" href="assets/niceselectpicker/nice-select.css">
-    <link rel="stylesheet" href="assets/slick/slick.css">
-    <link rel="stylesheet" href="assets/slick/slick-theme.css">
+    <link rel="stylesheet" href="<?php echo base_url();?>assets/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="<?php echo base_url();?>assets/niceselectpicker/nice-select.css">
+    <link rel="stylesheet" href="<?php echo base_url();?>assets/slick/slick.css">
+    <link rel="stylesheet" href="<?php echo base_url();?>assets/slick/slick-theme.css">
     <!-- icon css-->
-    <link rel="stylesheet" href="assets/elagent-icon/style.css">
-    <link rel="stylesheet" href="assets/animation/animate.css">
-    <link rel="stylesheet" href="css/style.css">
-    <link rel="stylesheet" href="css/responsive.css">
+    <link rel="stylesheet" href="<?php echo base_url();?>assets/elagent-icon/style.css">
+    <link rel="stylesheet" href="<?php echo base_url();?>assets/animation/animate.css">
+    <link rel="stylesheet" href="<?php echo base_url();?>css/style.css">
+    <link rel="stylesheet" href="<?php echo base_url();?>css/responsive.css">
     <title><?php echo $sitenya['title']; ?></title>
 </head>
 
@@ -37,8 +37,8 @@
         <nav class="navbar navbar-expand-lg menu_one fadeInDown" id="sticky" style="top: 0px;">
             <div class="container">
                 <a class="navbar-brand sticky_logo" href="<?php echo $sitenya['url']; ?>">
-                    <img src="img/logo-w.png" srcset="img/logo-w2x.png 2x" alt="logo">
-                    <img src="img/logo.png" srcset="img/logo-2x.png 2x" alt="logo">
+                    <img src="<?php echo base_url();?>img/logo-w.png" srcset="<?php echo base_url();?>img/logo-w2x.png 2x" alt="logo">
+                    <img src="<?php echo base_url();?>img/logo.png" srcset="<?php echo base_url();?>img/logo-2x.png 2x" alt="logo">
                 </a>
                 <button class="navbar-toggler collapsed" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="menu_toggle">

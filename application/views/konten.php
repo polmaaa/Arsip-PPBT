@@ -513,17 +513,17 @@
 
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-    <script src="js/jquery-3.2.1.min.js"></script>
-    <script src="js/pre-loader.js"> </script>
-    <script src="assets/bootstrap/js/popper.min.js"></script>
-    <script src="assets/bootstrap/js/bootstrap.min.js"></script>
-    <script src="assets/niceselectpicker/jquery.nice-select.min.js"></script>
-    <script src="assets/slick/slick.min.js"></script>
-    <script src="js/parallaxie.js"></script>
-    <script src="js/TweenMax.min.js"></script>
-    <script src="js/jquery.wavify.js"></script>
-    <script src="assets/wow/wow.min.js"></script>
-    <script src="js/main.js"></script>
+    <script src="<?php echo base_url();?>js/jquery-3.2.1.min.js"></script>
+    <script src="<?php echo base_url();?>js/pre-loader.js"> </script>
+    <script src="<?php echo base_url();?>assets/bootstrap/js/popper.min.js"></script>
+    <script src="<?php echo base_url();?>assets/bootstrap/js/bootstrap.min.js"></script>
+    <script src="<?php echo base_url();?>assets/niceselectpicker/jquery.nice-select.min.js"></script>
+    <script src="<?php echo base_url();?>assets/slick/slick.min.js"></script>
+    <script src="<?php echo base_url();?>js/parallaxie.js"></script>
+    <script src="<?php echo base_url();?>js/TweenMax.min.js"></script>
+    <script src="<?php echo base_url();?>js/jquery.wavify.js"></script>
+    <script src="<?php echo base_url();?>assets/wow/wow.min.js"></script>
+    <script src="<?php echo base_url();?>js/main.js"></script>
 </body>
 
 </html>

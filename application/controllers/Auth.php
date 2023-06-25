@@ -16,7 +16,7 @@ class Auth extends CI_Controller
     {
         $data['sitenya'] = array(
             'title' => 'Arsip PPBT+',
-            'url' => site_url('/'),
+            'url' => site_url('auth'),
             'error' => $error
         );
 
@@ -48,6 +48,38 @@ class Auth extends CI_Controller
             $data['status_login'] = '0';
             redirect(site_url('auth/login'));
         }
+    }
+
+    public function tambah()
+    {
+        $data['sitenya'] = array(
+            'title' => 'Arsip PPBT+',
+            'url' => site_url('/'),
+            'error' => $error
+        );
+
+        if ($this->session->userdata('logged') == 1) {
+            $data['user'] = $this->session->all_userdata();
+            $data['status_login'] = '1';
+
+		    $this->load->view('header', $data);
+            $this->load->view('auth/tambah-doc', $data);
+        } else {
+            $data['status_login'] = '0';
+            redirect(site_url('auth/login'));
+        }
+    }
+
+    public function proses_tambah($error = NULL)
+    {
+        $judul = $this->input->post('judul');
+        $permasalahan = $this->input->post('permasalahan');
+        $penyelesaian = $this->input->post('penyelesaian');
+        echo "<pre>";
+        echo $judul."<br />";
+        echo $permasalahan."<br />";
+        echo $penyelesaian;
+        echo "</pre>";
     }
 
 
