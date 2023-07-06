@@ -36,7 +36,7 @@
                     <div class="col-lg-12 form-group">
                             <div class="small_text">Kategori</div>
                             <div class="input-group-append">
-                                <select id="mySelect" class="custom-select">
+                                <select id="myselect" name ='myselect'class="custom-select">
                                     <option value="0" selected>DOCUMENTATION</option>
                                     <option value="1">ITSM</option>
                                     <option value="2">PERMINTAAN DATA</option>
@@ -57,6 +57,12 @@
                             <div class="col-lg-12 form-group">
                                         <div class="small_text">JUDUL</div>
                                             <input type="text" class="form-control" name="judul-doc" id="judul-doc" placeholder="Judul">
+
+                            </div>
+							<div class="col-lg-12 form-group">
+                                        <div class="small_text">TAG</div>
+                                            <input type="text" class="form-control" name="tag-doc" id="tag-doc" placeholder="Judul">
+
                             </div>
                             <div class="col-lg-12 form-group">
                                 <div class="small_text">Case Subject</div>
@@ -70,16 +76,7 @@
                                 <div class="small_text">Resolution</div>
                                 <textarea class="form-control" id="penyelesaian-doc" name="penyelesaian-doc" placeholder="Enter Your Text ..."></textarea>
                             </div>
-                            <div class="col-lg-12 form-group">
-                                <label class="small_text" for="example-daterange1">Time</label>
-                                <div class="input-daterange input-group" data-date-format="dd/mm/yyyy" data-week-start="1" data-autoclose="true" data-today-highlight="true">
-                                    <input type="text" class="form-control" id="time1" name="time1" placeholder="From" data-week-start="1" data-autoclose="true" data-today-highlight="true">
-                                    <div class="input-group-prepend input-group-append">
-                                        <span class="input-group-text font-w600">to</span>
-                                    </div>
-                                    <input type="text" class="form-control" id="time2" name="time2" placeholder="To" data-week-start="1" data-autoclose="true" data-today-highlight="true">
-                                </div>
-                            </div>
+                            
                             <div class="col-lg-12 form-group">
                                 <div class="small_text">Pengecekan</div>
                                 <textarea class="form-control" id="pengecekan-doc" name="pengecekan-doc" placeholder="Enter Your Text ..."></textarea>
