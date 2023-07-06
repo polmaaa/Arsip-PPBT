@@ -26,6 +26,11 @@
             <div class="section_title text-center">
                 <h2 class="h_title wow fadeInUp">Tambah</h2>
             </div>
+			<?php if ($this->session->flashdata('success')): ?>
+				<div class="alert alert-success" role="alert">
+					<?php echo $this->session->flashdata('success'); ?>
+				</div>
+				<?php endif; ?>
             <form class="row login_form" action="<?php echo site_url('auth/proses_tambah') ?>" method="post">
                 <div class="col-sm-12 form-group">
                     <div class="col-lg-12 form-group">
@@ -39,16 +44,67 @@
                             </div>
                         <ul class="nav nav-tabs" id="myTab" hidden="hidden">
                             <li class="active"><a href="#documentation"></a></li>
-                            <li><a href="#itsm"></a></li>
+                            <li class="active1"><a href="#itsm"></a></li>
                             <li><a href="#permintaan_data"></a></li>
                         </ul>
                     </div>
 
 
                     <div class="tab-content">
-                        <div class="tab-pane active" id="documentation">DOCUMENTATION</div>
+               
 
-                        <div class="tab-pane" id="itsm">
+                        <div class="tab-pane active" id="documentation">
+                            <div class="col-lg-12 form-group">
+                                <div class="row">
+                                    <div class="col-lg-6">
+                                        <div class="small_text">JUDUL</div>
+                                            <input type="text" class="form-control" name="judul" id="judul" placeholder="Judul">
+                                        </div>
+                                        <div class="col-lg-6">
+                                        <div class="small_text">Incident</div>
+                                            <input type="text" class="form-control" name="incident" id="incident" placeholder="Incident">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-12 form-group">
+                                <div class="small_text">Case Subject</div>
+                                <input type="text" class="form-control" name="judul" id="judul" placeholder="Case Subject">
+                            </div>
+                            <div class="col-lg-12 form-group">
+                                <div class="small_text">Case Description</div>
+                                <textarea class="form-control" id="permasalahan" name="permasalahan" placeholder="Enter Your Text ..."></textarea>
+                            </div>
+                            <div class="col-lg-12 form-group">
+                                <div class="small_text">Resolution</div>
+                                <textarea class="form-control" id="penyelesaian" name="penyelesaian" placeholder="Enter Your Text ..."></textarea>
+                            </div>
+                            <div class="col-lg-12 form-group">
+                                <label class="small_text" for="example-daterange1">Time</label>
+                                <div class="input-daterange input-group" data-date-format="dd/mm/yyyy" data-week-start="1" data-autoclose="true" data-today-highlight="true">
+                                    <input type="text" class="form-control" id="time1" name="time1" placeholder="From" data-week-start="1" data-autoclose="true" data-today-highlight="true">
+                                    <div class="input-group-prepend input-group-append">
+                                        <span class="input-group-text font-w600">to</span>
+                                    </div>
+                                    <input type="text" class="form-control" id="time2" name="time2" placeholder="To" data-week-start="1" data-autoclose="true" data-today-highlight="true">
+                                </div>
+                            </div>
+                            <div class="col-lg-12 form-group">
+                                <div class="small_text">Pengecekan</div>
+                                <textarea class="form-control" id="pengecekan" name="pengecekan" placeholder="Enter Your Text ..."></textarea>
+                            </div>
+                            <div class="col-lg-12 form-group">
+                                <input type="submit" class="btn action_btn thm_btn" value="Masukin">
+                            </div> 
+                        </div>
+						
+						 
+
+                        
+                   
+					
+					
+               
+						 <div class="tab-pane active1" id="itsm">
                             <div class="col-lg-12 form-group">
                                 <div class="row">
                                     <div class="col-lg-6">
@@ -92,8 +148,9 @@
                             </div> 
                         </div>
 
-                        <div class="tab-pane" id="permintaan_data">PERMINTAAN DATA</div>
+                        
                     </div>
+					 
 
                     <!-- 
                     <div class="col-lg-12 form-group">
