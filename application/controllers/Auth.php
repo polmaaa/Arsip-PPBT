@@ -76,21 +76,56 @@ class Auth extends CI_Controller
         $incident = $this->input->post('incident');
 		//dd($incident);
 		// $data['kontenid'] = $this->konten_id = uniqid();
+		$option1 = $this->input->post('myselect');
+		
+		if($option1 == 0){
+			$data['kontenid'] = $this->konten_id = uniqid();
+			$data['judul-doc'] = $this->input->post('judul-doc');
+			$data['permasalahan-doc'] = $this->input->post('permasalahan-doc');
+			$data['penyelesaian-doc'] = $this->input->post('penyelesaian-doc');
+			/* $data['time1'] = $this->input->post('time1');
+			$data['time2'] = $this->input->post('time2'); */
+			$data['pengecekan-doc'] = $this->input->post('pengecekan-doc');
+			$data['tag-doc'] = $this->input->post('tag-doc');
+			$kategori = 'DOCUMENTATION';
+			$object = [
+			'KONTEN_ID' => $data['kontenid'],
+			'JUDUL' => $data['judul-doc'],
+			'PERMASALAHAN' => $data['permasalahan-doc'],
+			'PENYELESAIAN' => $data['penyelesaian-doc'],
+			'KATEGORI' => $kategori,
+			'TAGS' => $data['tag-doc'],
+			'CREATED_AT' => $data['permasalahan-doc'],
+			'CREATED_BY' => $data['penyelesaian-doc'],
+			'UPDATED_AT' => $kategori,
+			'UPDATED_BY' => $data['tag-doc']
+			
+		];
+        $this->db->insert('FADHILAH_HADI.WEB_KONTEN', $object);
+		$this->session->set_flashdata('success', 'berhasil ditambahkan');
+		redirect(base_url('auth/tambah'));
+			
+		}
+		
+		if($option2 == 1){
         $data['owner'] = $this->input->post('owner');
         $data['judul'] = $this->input->post('judul');
-        $data['judul-doc'] = $this->input->post('judul-doc');
+       
         $data['permasalahan'] = $this->input->post('permasalahan');
-        $data['permasalahan-doc'] = $this->input->post('permasalahan-doc');
+        
         $data['penyelesaian'] = $this->input->post('penyelesaian');
-        $data['penyelesaian-doc'] = $this->input->post('penyelesaian-doc');
+        
         $data['time1'] = $this->input->post('time1');
         $data['time2'] = $this->input->post('time2');
         $data['pengecekan'] = $this->input->post('pengecekan');
-        $data['pengecekan-doc'] = $this->input->post('pengecekan-doc');
-        echo "<pre>";
+		}
+		
+		
+       /*  echo "<pre>";
 		echo "test";
+		echo $kategori. "</br>";
 		var_dump($data);
-        echo "</pre>";
+        echo "</pre>"; */
 		
 		
 		/* $kontenid = $this->konten_id = uniqid();
