@@ -72,9 +72,11 @@ class Auth extends CI_Controller
 
     public function proses_tambah($error = NULL)
     {
+		
         $incident = $this->input->post('incident');
+		//dd($incident);
+		$kontenid = $this->konten_id = uniqid();
         $owner = $this->input->post('owner');
-        $judul = $this->input->post('judul');
         $judul = $this->input->post('judul');
         $permasalahan = $this->input->post('permasalahan');
         $penyelesaian = $this->input->post('penyelesaian');
@@ -82,6 +84,8 @@ class Auth extends CI_Controller
         $time2 = $this->input->post('time2');
         $pengecekan = $this->input->post('pengecekan');
         echo "<pre>";
+		echo "test";
+		var_dump($kontenid);
         echo $incident."<br />";
         echo $owner."<br />";
         echo $judul."<br />";
@@ -91,6 +95,33 @@ class Auth extends CI_Controller
         echo $time2."<br />";
         echo $pengecekan."<br />";
         echo "</pre>";
+		
+		
+		/* $kontenid = $this->konten_id = uniqid();
+		$incident = $this->input->post('incident')
+		$judul = $this->input->post('judul');
+		echo "<pre>";
+		echo "test";
+        echo $kontenid."<br />";
+        echo $incident."<br />";
+        echo $judul."<br />";
+        echo $permasalahan."<br />";
+        echo $penyelesaian."<br />";
+        echo $time1."<br />";
+        echo $time2."<br />";
+        echo $pengecekan."<br />";
+        echo "</pre>";
+		
+		$date = date("Y-m-d");
+		$object = [
+			'KONTEN_ID' => $kontenid,
+			'JUDUL' => $judul,
+			'ISI_KOMENTAR' => $this->input->post('komentar'),
+		];
+		$this->db->set('TANGGAL', "to_date('$date', 'YYYY-MM-DD')", false);
+		$this->db->insert('FADHILAH_HADI.WEB_KONTEN', $object);
+		$this->session->set_flashdata('success', 'Komentarmu sudah ditambahkan');
+		redirect(base_url('auth/tambah')); */
     }
 
 
