@@ -87,6 +87,7 @@ class Auth extends CI_Controller
 			$data['time2'] = $this->input->post('time2'); */
 			$data['pengecekan-doc'] = $this->input->post('pengecekan-doc');
 			$data['tag-doc'] = $this->input->post('tag-doc');
+			//$date = date("Y-m-d");
 			$kategori = 'DOCUMENTATION';
 			$object = [
 			'KONTEN_ID' => $data['kontenid'],
@@ -94,11 +95,11 @@ class Auth extends CI_Controller
 			'PERMASALAHAN' => $data['permasalahan-doc'],
 			'PENYELESAIAN' => $data['penyelesaian-doc'],
 			'KATEGORI' => $kategori,
-			'TAGS' => $data['tag-doc'],
-			'CREATED_AT' => $data['permasalahan-doc'],
-			'CREATED_BY' => $data['penyelesaian-doc'],
-			'UPDATED_AT' => $kategori,
-			'UPDATED_BY' => $data['tag-doc']
+			'TAGS' => $data['tag-doc']
+			'CREATED_AT' => $date,
+			'CREATED_BY' => $date,
+			'UPDATED_AT' => $date,
+			'UPDATED_BY' => $date
 			
 		];
         $this->db->insert('FADHILAH_HADI.WEB_KONTEN', $object);
