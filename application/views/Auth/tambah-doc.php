@@ -55,28 +55,20 @@
 
                         <div class="tab-pane active" id="documentation">
                             <div class="col-lg-12 form-group">
-                                <div class="row">
-                                    <div class="col-lg-6">
                                         <div class="small_text">JUDUL</div>
-                                            <input type="text" class="form-control" name="judul" id="judul" placeholder="Judul">
-                                        </div>
-                                        <div class="col-lg-6">
-                                        <div class="small_text">Incident</div>
-                                            <input type="text" class="form-control" name="incident" id="incident" placeholder="Incident">
-                                    </div>
-                                </div>
+                                            <input type="text" class="form-control" name="judul-doc" id="judul-doc" placeholder="Judul">
                             </div>
                             <div class="col-lg-12 form-group">
                                 <div class="small_text">Case Subject</div>
-                                <input type="text" class="form-control" name="judul" id="judul" placeholder="Case Subject">
+                                <input type="text" class="form-control" name="judul-doc" id="-doc" placeholder="Case Subject">
                             </div>
                             <div class="col-lg-12 form-group">
                                 <div class="small_text">Case Description</div>
-                                <textarea class="form-control" id="permasalahan" name="permasalahan" placeholder="Enter Your Text ..."></textarea>
+                                <textarea class="form-control" id="permasalahan-doc" name="permasalahan-doc" placeholder="Enter Your Text ..."></textarea>
                             </div>
                             <div class="col-lg-12 form-group">
                                 <div class="small_text">Resolution</div>
-                                <textarea class="form-control" id="penyelesaian" name="penyelesaian" placeholder="Enter Your Text ..."></textarea>
+                                <textarea class="form-control" id="penyelesaian-doc" name="penyelesaian-doc" placeholder="Enter Your Text ..."></textarea>
                             </div>
                             <div class="col-lg-12 form-group">
                                 <label class="small_text" for="example-daterange1">Time</label>
@@ -90,7 +82,7 @@
                             </div>
                             <div class="col-lg-12 form-group">
                                 <div class="small_text">Pengecekan</div>
-                                <textarea class="form-control" id="pengecekan" name="pengecekan" placeholder="Enter Your Text ..."></textarea>
+                                <textarea class="form-control" id="pengecekan-doc" name="pengecekan-doc" placeholder="Enter Your Text ..."></textarea>
                             </div>
                             <div class="col-lg-12 form-group">
                                 <input type="submit" class="btn action_btn thm_btn" value="Masukin">
@@ -198,9 +190,12 @@
 
     
     <script>
+        CKEDITOR.replace('permasalahan-doc');
         CKEDITOR.replace('permasalahan');
         CKEDITOR.replace('penyelesaian');
+        CKEDITOR.replace('penyelesaian-doc');
         CKEDITOR.replace('pengecekan');
+        CKEDITOR.replace('pengecekan-doc');
 
         $('#mySelect').on('change', function (e) {
             $('#myTab li a').eq($(this).val()).tab('show'); 

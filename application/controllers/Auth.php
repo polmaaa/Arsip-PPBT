@@ -75,25 +75,21 @@ class Auth extends CI_Controller
 		
         $incident = $this->input->post('incident');
 		//dd($incident);
-		$kontenid = $this->konten_id = uniqid();
-        $owner = $this->input->post('owner');
-        $judul = $this->input->post('judul');
-        $permasalahan = $this->input->post('permasalahan');
-        $penyelesaian = $this->input->post('penyelesaian');
-        $time1 = $this->input->post('time1');
-        $time2 = $this->input->post('time2');
-        $pengecekan = $this->input->post('pengecekan');
+		// $data['kontenid'] = $this->konten_id = uniqid();
+        $data['owner'] = $this->input->post('owner');
+        $data['judul'] = $this->input->post('judul');
+        $data['judul-doc'] = $this->input->post('judul-doc');
+        $data['permasalahan'] = $this->input->post('permasalahan');
+        $data['permasalahan-doc'] = $this->input->post('permasalahan-doc');
+        $data['penyelesaian'] = $this->input->post('penyelesaian');
+        $data['penyelesaian-doc'] = $this->input->post('penyelesaian-doc');
+        $data['time1'] = $this->input->post('time1');
+        $data['time2'] = $this->input->post('time2');
+        $data['pengecekan'] = $this->input->post('pengecekan');
+        $data['pengecekan-doc'] = $this->input->post('pengecekan-doc');
         echo "<pre>";
 		echo "test";
-		var_dump($kontenid);
-        echo $incident."<br />";
-        echo $owner."<br />";
-        echo $judul."<br />";
-        echo $permasalahan."<br />";
-        echo $penyelesaian."<br />";
-        echo $time1."<br />";
-        echo $time2."<br />";
-        echo $pengecekan."<br />";
+		var_dump($data);
         echo "</pre>";
 		
 		
