@@ -69,10 +69,12 @@ class Auth extends CI_Controller
             redirect(site_url('auth/login'));
         }
     }
-
+	
+	
+	
+	
     public function proses_tambah($error = NULL)
     {
-		
         $incident = $this->input->post('incident');
 		//dd($incident);
 		// $data['kontenid'] = $this->konten_id = uniqid();
@@ -95,11 +97,14 @@ class Auth extends CI_Controller
 			'PERMASALAHAN' => $data['permasalahan-doc'],
 			'PENYELESAIAN' => $data['penyelesaian-doc'],
 			'KATEGORI' => $kategori,
-			'TAGS' => $data['tag-doc']
+			'TAGS' => $data['tag-doc'],
+			'CREATED_BY'=> 'fadhil',
+			'UPDATED_BY'=> 'fadhil'
 			
 			
 			
 		];
+		//echo $object['PENYELESAIAN'];
         $this->db->insert('FADHILAH_HADI.WEB_KONTEN', $object);
 		$this->session->set_flashdata('success', 'berhasil ditambahkan');
 		redirect(base_url('auth/tambah'));
@@ -119,7 +124,7 @@ class Auth extends CI_Controller
         $data['pengecekan'] = $this->input->post('pengecekan');
 		}
 		
-		
+		//echo $object['PENYELESAIAN'];
         // echo "<pre>";
 		// echo "test";
 		// echo $kategori. "</br>";
