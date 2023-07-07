@@ -96,10 +96,8 @@ class Auth extends CI_Controller
 			'PENYELESAIAN' => $data['penyelesaian-doc'],
 			'KATEGORI' => $kategori,
 			'TAGS' => $data['tag-doc']
-			'CREATED_AT' => $date1,
-			'CREATED_BY' => $date1,
-			'UPDATED_AT' => $date1,
-			'UPDATED_BY' => $date1
+			
+			
 			
 		];
         $this->db->insert('FADHILAH_HADI.WEB_KONTEN', $object);
@@ -122,11 +120,12 @@ class Auth extends CI_Controller
 		}
 		
 		
-       /*  echo "<pre>";
-		echo "test";
-		echo $kategori. "</br>";
-		var_dump($data);
-        echo "</pre>"; */
+        // echo "<pre>";
+		// echo "test";
+		// echo $kategori. "</br>";
+		// echo $date1. "</br>";
+		// var_dump($data);
+        // echo "</pre>";
 		
 		
 		/* $kontenid = $this->konten_id = uniqid();
